@@ -3,26 +3,26 @@ function sayName(name)
     return 'Hello ' + name;
 }
 var hello = sayName;
-// var fun = sayName('Alamin');
-// console.log(hello);
-// console.log(fun);
-// console.log(hello('Azad'));
-// var anotherhello = hello;
-// console.log(anotherhello('Roki'));
-// var arr = [1,2,3];
-// arr.push(sayName);
-// // console.log(arr);
-// var person ={
-//     name:'Alamin',
-//     sayName:hello,
-//     print:function()
-//     {
-//         console.log('Hi');
-//     }
-// }
-// console.log(person);
-// var sum = 10 + function(){return 50}();
-// console.log(sum);
+var fun = sayName('Alamin');
+console.log(hello);
+console.log(fun);
+console.log(hello('Azad'));
+var anotherhello = hello;
+console.log(anotherhello('Roki'));
+var arr = [1,2,3];
+arr.push(sayName);
+// console.log(arr);
+var person ={
+    name:'Alamin',
+    sayName:hello,
+    print:function()
+    {
+        console.log('Hi');
+    }
+}
+console.log(person);
+var sum = 10 + function(){return 50}();
+console.log(sum);
 function wow(name,fun)
 {
     return fun(name);
